@@ -2,8 +2,19 @@
   text-align: center;
   font-weight: 100;
   font-size: 80px;
-},
+}
 .search {
+  font-weight: 700;
+  height: initial;
+  width: -webkit-fill-available;
+}
+.type {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.grani {
   width: 70%;
-  padding: 90px 37px 90px 15px;
+  height: 40px;
+  display: inline-block;
 }
