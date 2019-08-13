@@ -3,10 +3,12 @@
   font-weight: 100;
   font-size: 80px;
 }
-.ffrm{
+
+.ffrm {
   display: block;
 }
-.box{
+
+.box {
   background: #fff;
   /* box-shadow: 0 6px 8px rgba(102,119,136,.03), 0 1px 2px rgba(102,119,136,.3); */
   box-shadow: 0 0 6px 0px;
@@ -15,10 +17,14 @@
   align-items: center;
   cursor: text;
 }
-.pole{
-  box-sizing: inherit;
-  margin: 45px;
-  display: block;
-  font-size: inherit;
-  height: 10%;
+
+.pole {
+  display: flex;
+  justify-content: center;
+}
+
+.textInput {
+  height: 50px;
+  width: 500px;
+  font-size: 22px;
 }
